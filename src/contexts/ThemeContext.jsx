@@ -13,18 +13,24 @@ export const useTheme = () => {
 export const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState('light');
 
+  const applyTheme = (nextTheme) => {
+    document.documentElement.setAttribute('data-theme', nextTheme);
+    document.body.classList.toggle('dark', nextTheme === 'dark');
+  };
+
   useEffect(() => {
     const savedTheme = localStorage.getItem('theme') || 'light';
     setTheme(savedTheme);
-    document.documentElement.setAttribute('data-theme', savedTheme);
-    document.body.classList.toggle('dark', savedTheme === 'dark');
+    applyTheme(savedTheme);
   }, []);
 
+  useEffect(() => {
+    localStorage.setItem('theme', theme);
+    applyTheme(theme);
+  }, [theme]);
+
   const toggleTheme = () => {
-    const newTheme = theme === 'light' ? 'dark' : 'light';
-    setTheme(newTheme);
-    localStorage.setItem('theme', newTheme);
-    document.body.classList.toggle('dark', newTheme === 'dark');
+    setTheme((currentTheme) => (currentTheme === 'light' ? 'dark' : 'light'));
   };
 
   return (

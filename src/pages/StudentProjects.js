@@ -1,68 +1,55 @@
 export const studentProjects = [
   {
     title: 'AwesomeTodos',
-    description: 'Advanced todo management app with drag & drop, categories, priorities, localStorage sync, and dark mode. Built to demonstrate React state management.',
+    description: 'A focused task manager built to practice state management, reusable UI patterns, and persistent data handling in React.',
     image: '/images/project.jpg',
-    technologies: ['React', 'useContext', 'localStorage', 'HTML5 Drag API', 'CSS Custom Properties'],
+    technologies: ['React', 'useState', 'useContext', 'localStorage', 'Responsive UI'],
     highlights: [
-      'Full CRUD operations with React hooks',
-      'Drag-drop reordering and animations',
-      'Persistent data and theme persistence'
+      'Task creation, editing, deletion, and filtering',
+      'Priority categorization and activity organization',
+      'Theme-aware design with saved user preferences'
     ],
-    github: 'https://github.com/rodguanco/awesometodos',
-    live: 'https://awesometodos-rodguanco.netlify.app'
+    github: 'https://github.com/rodguanco',
+    live: ''
   },
   {
-    title: 'Lets Go (Group Project)',
-    description: 'Team-built travel adventure app with destination search, itinerary planner, map integration, and group sharing features. React frontend with Node/Express backend.',
+    title: 'Lets Go',
+    description: 'A travel-planning concept app created for group collaboration and itinerary planning, focusing on clarity, navigation, and mobile usability.',
     image: '/images/letsgo.jpg',
-    technologies: ['React', 'Node.js', 'Express', 'Google Maps API', 'MongoDB'],
+    technologies: ['React', 'Team Workflow', 'UI Planning', 'Responsive Design'],
     highlights: [
-      'Team Git workflow with feature branches',
-      'Real-time itinerary collaboration',
-      'Responsive design for mobile trip planning'
+      'Shared trip planning experience for a group project',
+      'Clear destination-focused layout and booking flow',
+      'Strong emphasis on presentation and usability'
     ],
-    github: 'https://github.com/rodguanco/lets-go-group',
-    live: 'https://lets-go-rodguanco.vercel.app'
+    github: 'https://github.com/rodguanco',
+    live: ''
   },
   {
     title: 'Weather Dashboard',
-    description: 'Real-time weather app with OpenWeatherMap API integration, 5-day forecasts, geolocation, and hourly breakdowns. Clean card UI with smooth transitions.',
-    image: '/images/project.jpg',
-    technologies: ['React', 'Axios', 'OpenWeatherMap API', 'Chart.js'],
+    description: 'A practical data dashboard that translates live weather input into a simpler and more readable front-end experience.',
+    image: '/images/dash.jpg',
+    technologies: ['React', 'API Integration', 'Async State', 'UI Polishing'],
     highlights: [
-      'Async API calls with loading/error states',
-      'Geolocation-based current weather',
-      'Temperature unit toggle and favorites'
+      'Current conditions and forecast-friendly layout',
+      'Loading and empty-state handling for cleaner UX',
+      'A clean card-based visual hierarchy'
     ],
-    github: 'https://github.com/rodguanco/weather-dashboard',
-    live: 'https://rodguanco-weather.netlify.app'
+    github: 'https://github.com/rodguanco',
+    live: ''
   },
   {
-    title: 'School Grade Tracker',
-    description: 'Academic dashboard for BSIT courses with GPA calculator, semester comparisons, progress charts, and CSV export. Complete CRUD for grades/subjects.',
-    image: '/images/profile.jpg',
-    technologies: ['React', 'Chart.js', 'localStorage', 'React Hook Form'],
+    title: 'Academic Grade Tracker',
+    description: 'A student-focused dashboard for monitoring course performance, comparing terms, and presenting results in a more visual way.',
+    image: '/images/tracker.jpg',
+    technologies: ['React', 'Data Visualization', 'CRUD Logic', 'Course Planning'],
     highlights: [
-      'GPA calculation engine',
-      'Visual progress charts',
-      'Data export and backup features'
+      'Semester overview with performance tracking',
+      'Simple academic data management workflow',
+      'Portfolio-ready presentation for student work'
     ],
-    github: 'https://github.com/rodguanco/grade-tracker',
-    live: 'https://rodguanco-grades.netlify.app'
-  },
-  {
-    title: 'Figma Activity Projects',
-    description: 'UI/UX design prototypes created in Figma for portfolio websites, mobile apps, and dashboard concepts. Focus on design systems and component libraries.',
-    image: '/images/project.jpg',
-    technologies: ['Figma', 'Design Systems', 'Prototyping', 'Wireframing'],
-    highlights: [
-      'Mobile-responsive design prototypes',
-      'Component libraries and variants',
-      'Interactive prototype flows'
-    ],
-    github: 'https://github.com/rodguanco/figma-designs',
-    live: 'https://www.figma.com/proto/.../rodguanco-figma'
+    github: 'https://github.com/rodguanco',
+    live: ''
   }
 ];
 

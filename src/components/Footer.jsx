@@ -6,7 +6,7 @@ const Footer = () => (
       <div className="footer-section">
         <span className="eyebrow">Portfolio</span>
         <h4>Rod Christian H. Guanco</h4>
-        <p>2nd Year BSIT Student</p>
+        <p>3rd Year BSIT Student</p>
         <p>Western Institute of Technology</p>
         <p>Iloilo City, Philippines</p>
       </div>

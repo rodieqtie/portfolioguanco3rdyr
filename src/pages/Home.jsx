@@ -30,7 +30,7 @@ const premiumHighlights = [
   {
     icon: GraduationCap,
     title: 'Academic Foundation',
-    text: 'Built around my journey as a 2nd year BSIT student at Western Institute of Technology.'
+    text: 'Built around my journey as a 3rd year BSIT student at Western Institute of Technology.'
   },
   {
     icon: Code2,
@@ -88,7 +88,7 @@ const Home = () => {
             Rod Christian H. Guanco
             <span className="hero-typed">
               <ReactTyped
-                strings={['2nd Year BSIT Student', 'Frontend-Focused Builder', 'Western Institute of Technology']}
+                strings={['3rd Year BSIT Student', 'Frontend-Focused Builder', 'Western Institute of Technology']}
                 typeSpeed={75}
                 backSpeed={45}
                 loop

@@ -82,7 +82,7 @@ const Contact = () => {
             <div className="card premium-card contact-card">
               <span className="eyebrow">Profile</span>
               <h2>Rod Christian H. Guanco</h2>
-              <p>2nd Year BSIT Student at Western Institute of Technology focused on frontend development, project presentation, and continuous growth.</p>
+              <p>3rd Year BSIT Student at Western Institute of Technology focused on frontend development, project presentation, and continuous growth.</p>
               <div className="contact-points">
                 <p><Mail size={16} /> Add your real email here</p>
                 <p><Phone size={16} /> Add your real phone number here</p>

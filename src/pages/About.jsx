@@ -38,8 +38,8 @@ const About = () => (
       <div className="about-text fade-in-element">
         <span className="eyebrow">About Me</span>
         <h1>Building My Identity As A Student Developer</h1>
-        <h3>2nd Year BSIT Student | Western Institute of Technology</h3>
-        <p>My name is Rod Christian H. Guanco, and I am currently a 2nd year Bachelor of Science in Information Technology student at Western Institute of Technology in Iloilo City.</p>
+        <h3>3rd Year BSIT Student | Western Institute of Technology</h3>
+        <p>My name is Rod Christian H. Guanco, and I am currently a 3rd year Bachelor of Science in Information Technology student at Western Institute of Technology in Iloilo City.</p>
         <p>I am especially interested in frontend development because it allows me to combine technical problem solving with design, structure, and presentation. I enjoy creating interfaces that are responsive, easy to understand, and visually refined.</p>
         <p>This portfolio is part of that growth. It is not just a collection of pages, but a representation of how I think, how I learn, and how I want my work to be seen.</p>
         <div className="skills">
